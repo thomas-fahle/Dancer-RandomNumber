@@ -1,0 +1,35 @@
+<form action="/" method="post">
+
+<table>
+
+<% IF random OR random == 0 %>
+<tr>
+ <td colspan="2">Zufallszahl aus dem Bereich <b><% low %></b> bis <b><% high %></b>:
+  <font color="red"><b><% random %></b></font>.</td>
+</tr>
+<% END %>
+
+<tr>
+<% IF missing_low  %>
+ <td valign="top"><font color="red">Startwert (von):</font> </td>
+<% ELSE %>
+ <td valign="top">Startwert (von): </td>
+<% END %>
+ <td valign="top"><input type="text" name="low" value="<% low %>" /></td>
+</tr>
+<tr>
+<% IF missing_high %>
+ <td valign="top"><font color="red">Endwert (bis):</font> </td>
+<% ELSE %>
+ <td valign="top">Endwert (bis):</td>
+<% END %>
+ <td valign="top"><input type="text" name="high" value="<% high %>" /></td>
+</tr>
+<tr>
+ <td valign="top">&nbsp;</td>
+ <td valign="top"><input type="submit" value="Zufallszahl ziehen" /></td>
+</tr>
+
+</table>
+</form>
+

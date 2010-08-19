@@ -1,0 +1,5 @@
+layout: "main"
+logger: "file"
+enviroment: "development"
+template: "template_toolkit"
+
