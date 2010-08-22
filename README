@@ -3,6 +3,12 @@ WebApp: Simple random number (ints) generator.
 This WebApp is based on Dancer - The easiest way to write web applications in Perl
 See http://perldancer.org/ for details.
 
+This app was written for a talk at FrOSCon 2010 (http://http://www.froscon.de/)
+
+Slides are available at http://www.slideshare.net/thomasfahle/dancer-5032076
+
+
+
 Install required CPAN-Modules 
 
 $ cpan
