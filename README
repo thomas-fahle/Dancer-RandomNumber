@@ -32,9 +32,14 @@ Enjoy!
 
 If anything fails run the tests
 
-prove -l -v t/*
+$ prove -l -v t/*
 
 or have a look at the log folder.
+
+
+To run Perl::Critic tests add 'do_perl_critic_tests' to your enviroment
+
+$ do_perl_critic_tests=1 prove -l -v t/999_perlcritic.t
 
 
 

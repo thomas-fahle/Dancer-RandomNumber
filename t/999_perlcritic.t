@@ -1,7 +1,6 @@
 use Test::More;
 
-# Dancer imports use strict
-eval 'use Test::Perl::Critic (-exclude => "RequireUseStrict")';
+eval 'use Test::Perl::Critic';
 
 plan skip_all => 'Test::Perl::Critic required for testing PBP compliance' if $@;
 
