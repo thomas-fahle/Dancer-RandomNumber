@@ -1,9 +1,12 @@
 package RandomNumber;
 use strict;
 use warnings;
+
 use Dancer ':syntax';
+
 use RandomNumber::Generator qw/random_number/;
 use RandomNumber::Validator qw/validate_low_high/;
+
 our $VERSION = '0.1';
 
 =head1 NAME RandomNumber - Dancer WebApp
