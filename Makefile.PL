@@ -16,7 +16,7 @@ WriteMakefile(
         'YAML'                => 0,
         'Dancer'              => 1.1805,
         'Math::Random'        => 0,
-	'Template'            => 0,
+	    'Template'            => 0,
         'Data::FormValidator' => 0,
         'Regexp::Common'      => 0,
     },
