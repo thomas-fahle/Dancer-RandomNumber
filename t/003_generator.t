@@ -10,7 +10,6 @@ foreach my $sub (@subs) {
     can_ok( __PACKAGE__, $sub );
 }
 
-diag("Random in Range");
 my $min    = 100;
 my $max    = 200;
 my $random = random_number( $min, $max );
@@ -19,7 +18,6 @@ ok(
     "Random $random in range $min .. $max."
 );
 
-diag("Test Swapping if \$min > \$max");
 $min    = 500;
 $max    = 200;
 $random = random_number( $min, $max );
@@ -28,7 +26,6 @@ ok(
     "Random $random in swapped range $min .. $max."
 );
 
-diag("Negative Ints");
 $min    = -500;
 $max    = 2;
 $random = random_number( $min, $max );
@@ -37,13 +34,11 @@ ok(
     "Random $random in negative range $min .. $max."
 );
 
-diag("Random out of Range");
 $min    = -1234567890;
 $max    = 1234567890;
 $random = random_number( $min, $max );
 ok( $random =~ m/Fehler/, "Ok Bereichsgrenzen abgefangen." );
 
-diag("Zero Range");
 $min    = 0;
 $max    = 0;
 $random = random_number( $min, $max );

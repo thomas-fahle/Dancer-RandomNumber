@@ -2,12 +2,11 @@ use Test::More tests => 8;
 use strict;
 use warnings;
 
-diag("Load CPAN Modules");
+diag("Load Modules");
 use_ok 'Data::FormValidator';
 use_ok 'Regexp::Common';
 use_ok 'Math::Random';
 
-diag("Load Modules");
 use_ok 'RandomNumber';
 
 my @subs = qw/random_number /;
