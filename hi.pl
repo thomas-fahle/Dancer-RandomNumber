@@ -1,4 +1,6 @@
 #!/opt/perl5.12.1/bin/perl
+use strict;
+use warnings;
 
 use Dancer;
 
