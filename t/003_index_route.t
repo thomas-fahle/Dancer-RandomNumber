@@ -1,6 +1,7 @@
-use Test::More tests => 4;
+#!perl
 use strict;
 use warnings;
+use Test::More tests => 4;
 
 # the order is important
 use RandomNumber;

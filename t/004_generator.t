@@ -1,6 +1,7 @@
-use Test::More tests => 7;
+#!perl
 use strict;
 use warnings;
+use Test::More tests => 7;
 
 diag("Load Modules");
 

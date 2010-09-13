@@ -1,3 +1,6 @@
+#!perl
+use strict;
+use warnings;
 use Test::More;
 
 eval 'use Test::Perl::Critic';

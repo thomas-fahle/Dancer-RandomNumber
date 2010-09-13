@@ -1,6 +1,7 @@
-use Test::More tests => 21;
+#!perl
 use strict;
 use warnings;
+use Test::More tests => 21;
 
 my @subs = qw/validate_low_high/;
 use_ok( 'RandomNumber::Validator', @subs );

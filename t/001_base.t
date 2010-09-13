@@ -1,6 +1,7 @@
-use Test::More tests => 8;
+#!perl 
 use strict;
 use warnings;
+use Test::More tests => 8;
 
 diag("Load Modules");
 use_ok 'Data::FormValidator';
