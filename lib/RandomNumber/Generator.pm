@@ -13,7 +13,7 @@ use Exporter;
 our $VERSION   = '0.01';
 our @ISA       = qw/Exporter/;
 our @EXPORT    = ();
-our @EXPORT_OK = qw/ random_number/;
+our @EXPORT_OK = qw/ random_number /;
 
 =head1 NAME RandomNumber::Generator - Generates Random Numbers
 
